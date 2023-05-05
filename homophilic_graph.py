@@ -183,7 +183,7 @@ if __name__ == '__main__':
     S = op_S(lb2, N, M)
     S = A_final(S)
     print("homophily", homophily_v2(A, gnd)) #! 0.8137
-    print("homophily", homophily_v2(S, gnd)) #! 0.8691 higher than the reported result (because of different )
+    print("homophily", homophily_v2(S, gnd)) #! 0.8691 higher than the reported result 
     print("edges of A", np.count_nonzero(A)) #! 5429
     print("edges of S", np.count_nonzero(S)) #! 9153
    
